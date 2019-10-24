@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "867331412440",
+    "firebase_url": "https://coffeecloudgt-ff8d2.firebaseio.com",
+    "project_id": "coffeecloudgt-ff8d2",
+    "storage_bucket": "coffeecloudgt-ff8d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:867331412440:android:57adca003b761f29",
+        "android_client_info": {
+          "package_name": "com.coffee.cloud.anacaf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "867331412440-snujsrenatvhrvmi566470qrvjs5rsni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhFwR1bHE_ugatQRADH99d0OUGsXQh0Ac"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

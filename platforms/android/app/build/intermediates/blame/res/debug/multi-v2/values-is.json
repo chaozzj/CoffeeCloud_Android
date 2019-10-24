@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/emartinez/Desktop/CoffeeCloudApp/coffeecloudapp/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-is/values-is.xml",
+            "map": [
+                {
+                    "source": "/Users/emartinez/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.2.6.aar/fef25d93798b1e5d2db60e84852b5c72/res/values-is/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "187",
+                        "endOffsets": "472"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "187",
+                        "endOffsets": "288"
+                    }
+                },
+                {
+                    "source": "/Users/emartinez/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/6c4b4142d2e02253849d028c82895299/res/values-is/values-is.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "293",
+                        "endColumns": "100",
+                        "endOffsets": "389"
+                    }
+                }
+            ]
+        }
+    ]
+}

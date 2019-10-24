@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/emartinez/Desktop/CoffeeCloudApp/coffeecloudapp/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rIN/values-en-rIN.xml",
+            "map": [
+                {
+                    "source": "/Users/emartinez/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/6c4b4142d2e02253849d028c82895299/res/values-en-rIN/values-en-rIN.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

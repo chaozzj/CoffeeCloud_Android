@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.coffee.cloud.anacaf" version="3.6.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Badge">
+        <param name="android-package" value="de.appplant.cordova.plugin.badge.Badge" />
+    </feature>
+    <feature name="SQLitePlugin">
+        <param name="android-package" value="com.nolanlawson.cordova.sqlite.SQLitePlugin" />
+    </feature>
+    <feature name="Battery">
+        <param name="android-package" value="org.apache.cordova.batterystatus.BatteryListener" />
+    </feature>
+    <feature name="Camera">
+        <param name="android-package" value="org.apache.cordova.camera.CameraLauncher" />
+    </feature>
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="File">
+        <param name="android-package" value="org.apache.cordova.file.FileUtils" />
+        <param name="onload" value="true" />
+    </feature>
+    <allow-navigation href="cdvfile:*" />
+    <feature name="Geolocation">
+        <param name="android-package" value="org.apache.cordova.geolocation.Geolocation" />
+    </feature>
+    <feature name="Globalization">
+        <param name="android-package" value="org.apache.cordova.globalization.Globalization" />
+    </feature>
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
+    <feature name="LocalNotification">
+        <param name="android-package" value="de.appplant.cordova.plugin.localnotification.LocalNotification" />
+    </feature>
+    <feature name="Capture">
+        <param name="android-package" value="org.apache.cordova.mediacapture.Capture" />
+    </feature>
+    <feature name="NetworkStatus">
+        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="AdvancedGeolocation">
+        <param name="android-package" value="com.esri.cordova.geolocation.AdvancedGeolocation" />
+    </feature>
+    <feature name="FCMPlugin">
+        <param name="android-package" value="com.gae.scaffolder.plugin.FCMPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>Coffee Cloud Anacafé</name>
+    <description>
+        Información y herramientas para Productores de Café en Anacafé
+    </description>
+    <author email="centroclimaorg@gmail.com" href="http://centroclima.org">
+        CentroClima
+    </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <access origin="*" />
+    <edit-config file="*-Info.plist" mode="merge" target="NSLocationWhenInUseUsageDescription">
+        <string>Para obtener la ubicación de las fincas y los lotes a muestrear en la aplicación</string>
+    </edit-config>
+    <allow-intent href="market:*" />
+    <icon qualifier="ldpi" src="res/icon/android/drawable-ldpi-icon.png" />
+    <icon qualifier="mdpi" src="res/icon/android/drawable-mdpi-icon.png" />
+    <icon qualifier="hdpi" src="res/icon/android/drawable-hdpi-icon.png" />
+    <icon qualifier="xhdpi" src="res/icon/android/drawable-xhdpi-icon.png" />
+    <icon qualifier="xxhdpi" src="res/icon/android/drawable-xxhdpi-icon.png" />
+    <icon qualifier="xxxhdpi" src="res/icon/android/drawable-xxxhdpi-icon.png" />
+    <splash qualifier="land-ldpi" src="res/screen/android/screen-ldpi-landscape.png" />
+    <splash qualifier="land-mdpi" src="res/screen/android/screen-mdpi-landscape.png" />
+    <splash qualifier="land-hdpi" src="res/screen/android/screen-hdpi-landscape.png" />
+    <splash qualifier="land-xhdpi" src="res/screen/android/screen-xhdpi-landscape.png" />
+    <splash qualifier="land-xxhdpi" src="res/screen/android/screen-xxhdpi-landscape.png" />
+    <splash qualifier="land-xxxhdpi" src="res/screen/android/screen-xxxhdpi-landscape.png" />
+    <splash qualifier="port-ldpi" src="res/screen/android/screen-ldpi-portrait.png" />
+    <splash qualifier="port-mdpi" src="res/screen/android/screen-mdpi-portrait.png" />
+    <splash qualifier="port-hdpi" src="res/screen/android/screen-hdpi-portrait.png" />
+    <splash qualifier="port-xhdpi" src="res/screen/android/screen-xhdpi-portrait.png" />
+    <splash qualifier="port-xxhdpi" src="res/screen/android/screen-xxhdpi-portrait.png" />
+    <splash qualifier="port-xxxhdpi" src="res/screen/android/screen-xxxhdpi-portrait.png" />
+    <resource-file src="google-services.json" target="google-services.json" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="DisallowOverscroll" value="false" />
+    <preference name="android-minSdkVersion" value="19" />
+    <preference name="android-targetSdkVersion" value="28" />
+    <preference name="loadUrlTimeoutValue" value="700000" />
+    <preference name="SplashScreenDelay" value="6000" />
+    <preference name="Orientation" value="portrait" />
+</widget>

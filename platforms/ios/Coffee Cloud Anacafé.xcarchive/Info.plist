@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ApplicationProperties</key>
+	<dict>
+		<key>ApplicationPath</key>
+		<string>Applications/Coffee Cloud Anacafé.app</string>
+		<key>CFBundleIdentifier</key>
+		<string>com.coffee.cloud.anacaf</string>
+		<key>CFBundleShortVersionString</key>
+		<string>3.6.2</string>
+		<key>CFBundleVersion</key>
+		<string>3.6.2</string>
+		<key>SigningIdentity</key>
+		<string>iPhone Developer: David Martinez (8GYJBD6XD5)</string>
+		<key>Team</key>
+		<string>HP8S4747F5</string>
+	</dict>
+	<key>ArchiveVersion</key>
+	<integer>2</integer>
+	<key>CreationDate</key>
+	<date>2019-03-15T20:16:51Z</date>
+	<key>Name</key>
+	<string>Coffee Cloud Anacafé</string>
+	<key>SchemeName</key>
+	<string>Coffee Cloud Anacafé</string>
+</dict>
+</plist>
