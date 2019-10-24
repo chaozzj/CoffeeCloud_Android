@@ -1,7 +1,7 @@
 {
     "name": "com.coffeecloud.anacafe",
     "displayName": "Coffee Cloud Anacafé",
-    "version": "3.6.2",
+    "version": "3.6.3",
     "description": "Aplicación Móvil Coffee Cloud.",
     "main": "index.js",
     "scripts": {
